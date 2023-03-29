@@ -1,10 +1,10 @@
-import org.ajoberstar.grgit.Grgit
+//import org.ajoberstar.grgit.Grgit
 
-apply from: 'config/keystore.gradle'
+//apply from: 'config/keystore.gradle'
 
 buildscript {
     repositories {
-        gradlePluginPortal()
+        //gradlePluginPortal()
         google()
     }
     dependencies {
@@ -21,7 +21,7 @@ subprojects {
     }
 }
 
-ext.verifyKeystore()
+//ext.verifyKeystore()
 
 //try {
 //    def grgit = Grgit.open(currentDir: project.rootDir)
